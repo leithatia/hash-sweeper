@@ -8,6 +8,7 @@ def get_file_names(path):
     except OSError as e:
         print(f"Error {e}")
         return []
+        
 def get_bad_hashes(path):
     bad_hashes = set()
 
