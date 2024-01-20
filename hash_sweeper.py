@@ -27,7 +27,7 @@ def get_bad_hashes(path):
 def count_bad_hashes(files, bad_hashes):
     file_ioc_count = {}
 
-    # Initilise ioc count to 0 for each file
+    # Initialise ioc count to 0 for each file
     for file in files:
         file_ioc_count[file] = 0
 
